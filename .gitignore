@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local OS metadata
+.DS_Store
+
+# Local DICOM / PHI / generated de-identification artifacts
+data/
+data_raw/
+data_*/
+*.dcm
+*.dicom
+DICOMDIR
+mapping.json
+*mapping*.json
+
+requirements-mac.txt
